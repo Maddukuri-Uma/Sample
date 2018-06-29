@@ -1,0 +1,29 @@
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 89%;
+    background: #f1f1f1;
+    border-radius: 10px;
+    align-content: left;
+
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+button.search {
+    background:pink ;
+    float: right;
+    border-radius: 10px;
+    margin-right: 21px;
+    width: 100px;
+    padding: 10px;
+}  
+
+
+
+

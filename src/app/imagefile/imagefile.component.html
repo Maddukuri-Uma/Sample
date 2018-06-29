@@ -1,0 +1,15 @@
+
+  <div class="container">
+      <h4 class="top_quick">Quick access</h4>
+      <div class="row">
+        
+            <div class="col-md-3" *ngFor="let i of data">
+            	<div class="thumbnail">
+            		<img src="{{cmp_image_path[i]}}" alt="text" style="width: 100%">
+            		<div class="caption">
+            			{{cmp_image_name[i]}}
+            		</div>
+            	</div>
+            </div>
+      </div>
+    </div>
